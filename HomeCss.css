@@ -1,0 +1,1069 @@
+@charset "utf-8";
+/* CSS Document */
+	
+*{
+	padding: 0;
+	margin: 0;
+}
+/*Home Page Start */
+
+body{
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+	width: 100%;
+	height: 100vh;
+	background-attachment: fixed;
+}
+
+.bgImg img {
+	width: 100%;
+	height: 100vh;
+	align-content: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat:no-repeat; 
+}
+
+.navbar{
+	background: #000000;
+	font-family: Times, "Times New Roman";
+	padding-right: 15px;
+	padding-left: 15px;
+	height: 2cm;
+	}
+	
+.navdiv{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-right: 7.9cm;
+	}
+	
+.logo{
+	margin-top: -0.01cm;
+	margin-left: -0.4cm;
+	}
+	
+.logo img{
+	width: 80%;
+	height:2cm;
+	}
+	
+li{
+	list-style: none;
+	display: inline-block;
+	justify-content:space-around;
+	padding: 30px;
+	padding-top: 10px;
+	position: relative;
+	left: -1.2cm;
+	}
+	
+li a{
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	margin-right: 15px;
+	transition:.8s;
+	}
+
+li a:hover{
+	color: blue;
+	text-decoration: underline;
+	transition: .8s;
+}
+
+button {
+    width: 130px;
+    height: 45px;
+	position: relative;
+	left: 115px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+	color: white;
+	font-family: Times, "Times New Roman";
+	font-weight: bold;
+	font-size: 18px;
+    cursor: pointer;
+    margin-left: 40px;
+    transition: .5s;
+	padding-bottom: -60px;
+	margin-top: 10px;
+}
+
+button:hover {
+    background: #fff;
+	color: #000000;
+}
+
+button a:hover {
+	color: black;	
+}
+
+.cartLogo{
+	margin-top: -0.18cm;
+	margin-right: -4.7cm;
+	position: relative;
+	left: -0.5cm;
+}
+
+.adminLogo {
+	margin-top: -0.19cm;
+	margin-right: -8.4cm;
+}
+
+.Welcome{
+	width: 25cm;
+	margin-left: 18%;
+	margin-top: -14%; 
+	font-size: 8px;
+	color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.EP{
+	margin-top: 3cm;
+	border: 2px #000000 solid;
+	padding: 10px;
+	margin-right: 450px;
+	margin-left: 450px;
+	border-radius: 20px;
+}
+
+.LA{
+  transition: .5s;
+}
+
+.LA:hover{
+  color: #0069d9;
+}
+
+/*Slider*/
+
+.mySlides {display: none;}
+.SliderImg {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.text {
+  color: #000000;
+  font-size: 20px;
+  padding: 4px 12px;
+  position: relative;
+  bottom: 9px;
+  width: 100%;
+  text-align: center;
+  top: -25px;
+  left: -20px;
+}
+
+.Slider .slideshow-container .mySlides .SliderImg {
+	width: 50%;
+	height: 30%;
+	margin-left: 6.5cm;
+}
+
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+footer p{
+    font-size: 0.8em;
+    color: hsla(0, 50%, 100%, 0.35);
+}
+footer ul{
+    display: flex; 
+}
+
+footer{
+    width: 100%;
+    background: #000000;
+    color: #fff; 
+    display: grid;
+    place-items: center;
+    font-size: 1.2rem;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+/*Home Page End */
+
+/*About Page Start */
+
+.c{
+	margin-top: 50px;
+	margin-bottom: 450px;
+	margin-left: 80px;
+}
+
+.topic1{
+    margin-top: -140px;
+	margin-left: 6cm;;
+    font-size: 20mm;
+	color: #FFFFFF;
+	font-family: "BlackOpsOne Regular";
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;	
+}
+
+.about{
+    margin-top: 1.5cm;
+    color: #FFFFFF;
+    font-size: 7mm;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    text-align: center;
+}
+
+.container {
+  position: relative;
+  margin-top: -10cm;
+  margin-left: 17cm;
+  margin-bottom: -1.3cm;
+  font-family: sans-serif;
+}
+
+.container .box {
+  width: 50.875em;
+  height: 25.875em;
+  background-color: rgba(255, 255, 255, 0.074);
+  border: 1px solid rgba(255, 255, 255, 0.222);
+  backdrop-filter: blur(20px);
+  border-radius: .7rem;
+  transition: all ease .3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card1{
+  border: 1px solid #fff;
+  position: relative;
+  top: -10cm;
+  left: 2.5cm;
+  width: 380px;
+  height: 2cm;
+  background: #000000;
+  border-radius: 14px;
+}
+
+.uwu {
+  filter: blur(8px);
+  transition: filter 0.3s;
+}
+
+.content {
+  position: relative;
+  padding-left: 16px;
+  padding-top: 14px;
+}
+
+.content div {
+  text-align: center;
+}
+
+.h1 {
+  margin-top: 0.1em;
+  font-size: 2em;
+  font-weight: lighter;
+  font-family: "BlackOpsOne Regular";
+  color: #FFFFFF;
+}
+
+.card2{
+  border: 1px solid #fff;
+  position: relative;
+  top: -8cm;
+  left: 2.5cm;
+  width: 380px;
+  height: 2cm;
+  background: #000000;
+  border-radius: 14px;
+}
+
+.card3{
+  position: relative;
+  border: 1px solid #fff;
+  top: -6cm;
+  left: 2.5cm;
+  width: 380px;
+  height: 2cm;
+  background: #000000;
+  border-radius: 14px;
+}
+
+/* About Page End */
+
+/* Contact Page Start */
+
+#contact {
+  max-width: 800px;
+  margin-top: -750px;
+  margin-left: 9cm; 
+  padding: 20px;
+  background-color:#717171;
+  position:relative;
+  top:800px;
+  text-align: center;
+}
+
+#contact h1 {
+	color: white;
+	font-size: 58px;
+	margin-bottom: 20px;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	font-family: "BlackOpsOne Regular";
+	font-weight: lighter;
+}
+
+#contact h2 {
+  font-size: 34px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.contact-info p {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.contact-form {
+  margin-top: 40px;
+}
+
+.contact-form form {
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  color: white;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 95%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  margin-left: -3.1cm;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.con{
+	margin-left:  0.4cm;
+}
+
+/* Contact Page End */
+
+/* Login Page Start */
+
+.sec1
+{
+	width: 50%;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	padding-bottom: -500px;
+	margin-top: -15.1cm;
+}
+
+.f1{
+	position: relative;
+	top: -140px;
+	left: 530px;
+	padding: 30px;
+	background-color: #717171;
+	height: 500px;
+	width:  inherit;
+	border: 2px solid #FFFFFF;
+	border-radius: 20px;
+}
+
+.lo{
+	font-size: 45px;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	padding-bottom: 50px;
+}
+
+.log1{
+	font-size: 20px;
+	color: white;
+	align-content: right;
+}
+
+.log2{
+	padding: 5px;
+	border: none;
+	background: none;
+	border-bottom: solid #000000;
+	border-width: 2px;
+	width: 300px;
+	color: #000000;
+	font-size: 18px;
+	border-radius: 10px;
+}
+
+.check{
+	font-size: 18px;
+	color: white;
+}
+
+.p1{
+	text-align: center;
+	color: white;
+	font-size: 17px;
+}
+
+.forget{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	position: relative;
+	left: 35px;
+	transition: .3s
+}
+
+.forget:hover{
+	color: black;
+}
+
+.reg{
+	text-decoration: none;
+	color: white;
+	font-size: 17px;
+	transition: .5s;
+}
+
+.submit{
+	position: relative;
+	width: 100%;
+	padding: 13px;
+	margin-top: 10px;
+	border-radius: 8px;
+	align-items: center;
+	background-color: white;;
+	border: none;
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+	cursor: pointer;
+	transition: .8s;
+}
+
+.reg:hover{
+	color: black;
+}
+
+.submit:hover{
+	background: black;
+	color:white;
+}
+
+.Ad{
+	color: white;
+	font-size: 17px;
+	margin-left: 320px;
+	font-weight: lighter;
+	margin-top: 50px;
+	transition: .6s;
+	text-decoration-line: none;
+}
+
+.Ad:hover{
+	color: black;
+}
+
+/* Login Page End */
+
+/* Register Page Start */
+
+.sec2{
+	width: 50%;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	padding-bottom: -500px;
+	margin-top: -16.9cm;
+}
+
+.f2{
+	position: relative;
+	top: -70px;
+	left: 530px;
+	padding: 30px;
+	background-color: #717171;
+	height: 570px;
+	width:  inherit;
+	border: 2px solid #FFFFFF;
+	border-radius: 20px;
+}
+
+.re{
+	font-size: 45px;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	padding-bottom: 50px;
+}
+
+.user1{
+	font-size: 20px;
+	color: white;
+	align-content: right;
+}
+
+.user2{
+	padding: 5px;
+	border: none;
+	background: none;
+	border-bottom: solid #000000;
+	border-width: 2px;
+	width: 300px;
+	color: #000000;
+	font-size: 18px;
+	border-radius: 10px;
+}
+
+.check{
+	font-size: 18px;
+	color: white;
+}
+
+.p2{
+	text-align: center;
+	color: white;
+	font-size: 17px;
+}
+
+.reg{
+	text-decoration: none;
+	color: white;
+	font-size: 17px;
+	transition: .5s;
+}
+
+.submit{
+	position: relative;
+	width: 100%;
+	padding: 13px;
+	margin-top: 10px;
+	border-radius: 8px;
+	align-items: center;
+	background-color: white;;
+	border: none;
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+	cursor: pointer;
+	transition: .8s;
+}
+
+.reg:hover{
+	color: black;
+}
+
+.submit:hover{
+	background: black;
+	color:white;
+}
+
+/* Register Page End */
+
+/* Catagory Page Start */
+
+.cat{
+	text-align: center;
+	font-family: "BlackOpsOne Regular";
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	font-weight: lighter;
+	font-size: 18mm;
+}
+
+.choose{
+	font-family: "BlackOpsOne Regular";
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	font-weight: lighter;
+	font-size: 12mm;
+	padding: 20px;
+}
+
+#categories {
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.category-card {
+  display: inline-block;
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.category-card a {
+  display: block;
+  position: relative;
+}
+
+.category-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  transition: transform 0.3s;
+}
+
+.category-card:hover img {
+  transform: scale(1.1);
+}
+
+.category-card .category-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  margin-left: -10px;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
+
+.category-card .category-caption h3 {
+  margin: 0;
+}
+
+/* Catagory Page End */
+
+/* Product Page Start */
+
+.topic{
+	text-align: center;
+	font-family: "BlackOpsOne Regular";
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	font-weight: lighter;
+	font-size: 18mm;
+	margin-top: -670px;
+	margin-left: 5px;
+}
+
+#products {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.product-card {
+  display: inline-block;
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.product-card a {
+  display: block;
+  position: relative;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  transition: transform 0.3s;
+}
+
+.product-card:hover img {
+  transform: scale(1.1);
+}
+
+.product-card .product-caption {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  padding: 20px;
+  margin-left: -20px;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
+
+.product-card .product-caption h3 {
+  margin: 0;
+}
+
+/* Product Page End */
+
+/* Admin Page Start */
+
+.container1 {
+  max-width: 1060px;
+  margin: 20px auto;
+  margin-top: -650px;
+padding: 70px;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.topic2 {
+  text-align: center;
+  font-family: "BlackOpsOne Regular";
+  font-size: 16mm;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  margin-bottom: 50px;
+margin-top: -50px;
+}
+
+.form-style-5{
+	max-width: 500px;
+	padding: 10px 20px;
+	background: rgba(248, 247, 216, 0.7);
+	margin: 10px auto;
+	border-radius: 8px;   
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form-style-5 fieldset{
+	border: none;
+}
+.form-style-5 legend {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+.form-style-5 label {
+	display: block;
+	margin-bottom: 8px;
+}
+.form-style-5 input[type="text"],
+.form-style-5 input[type="date"],
+.form-style-5 input[type="datetime"],
+.form-style-5 input[type="email"],
+.form-style-5 input[type="number"],
+.form-style-5 input[type="search"],
+.form-style-5 input[type="time"],
+.form-style-5 input[type="url"],
+.form-style-5 input[type="file"],
+.form-style-5 textarea,
+.form-style-5 select {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background: rgba(255,255,255,.1);
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	background-color: #e8eeef;
+	color:#8a97a0;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 30px;
+}
+
+.form-style-5 input[type="text"]:focus,
+.form-style-5 input[type="date"]:focus,
+.form-style-5 input[type="datetime"]:focus,
+.form-style-5 input[type="email"]:focus,
+.form-style-5 input[type="number"]:focus,
+.form-style-5 input[type="search"]:focus,
+.form-style-5 input[type="time"]:focus,
+.form-style-5 input[type="url"]:focus,
+.form-style-5 textarea:focus,
+
+.form-style-5 input[type="file"]:focus,
+
+.form-style-5 select:focus{
+	background: #d2d9dd;
+}
+.form-style-5 select{
+	-webkit-appearance: menulist-button;
+	height:40px;
+}
+
+.form-style-5 input[type="submit"],
+.form-style-5 input[type="button"]
+{
+	position: relative;
+	display: block;
+	padding: 19px 39px 18px 39px;
+	color: #FFF;
+	margin: 0 auto;
+	background: #678CDB;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	width: 100%;
+	border: 1px solid #5F7AE9;
+	border-width: 1px 1px 3px;
+	margin-bottom: 10px;
+}
+.form-style-5 input[type="submit"]:hover,
+.form-style-5 input[type="button"]:hover
+{
+	background:#678CDB;
+}
+
+/* Admin Page End */
+
+/* Cart Page Start */
+
+.container2 {
+      max-width: 960px;
+      margin: 20px auto;
+	  margin-top: -650px;
+      padding: 20px;
+      background-color: #f2f2f2;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.topic4 {
+    text-align: center;
+   	font-family: "BlackOpsOne Regular";
+    font-size: 16mm;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    margin-bottom: 20px;
+}
+
+.citems {
+	list-style-type: none;
+	padding: 0;
+  	margin-bottom: 20px;
+}
+
+.citems li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.citems li:last-child {
+    margin-bottom: 0;
+}
+
+.pthumbnail {
+   flex-basis: 15%;
+}
+
+.pname2 {
+	flex-basis: 35%;
+}
+
+.pprice2 {
+	flex-basis: 15%;
+}
+
+.pquantity2 {
+    flex-basis: 15%;
+}
+
+.ptotal {
+    flex-basis: 15%;
+}
+
+.premove {
+    flex-basis: 5%;
+}
+
+.premove button {
+    padding: 5px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.premove button:hover {
+    background-color: #c82333;
+}
+
+.ctotal {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bold;
+}
+
+.ctotallabel {
+    margin-right: 10px;
+	color: white;
+}
+
+.ctotalamount {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.ctotalamount:hover {
+    background-color: #0069d9;
+}
+
+.cbtn {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.cbtn button {
+    padding: 2px 2px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cbtn button:hover {
+     background-color: #218838;
+}
+
+/* Cart Page End */
+
+/* All Item Page Start */
+
+.topic5{
+	text-align: center;
+	font-family: "BlackOpsOne Regular";
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	font-weight: lighter;
+	font-size: 12mm;
+	margin-top: -720px;
+	margin-left: 5px;
+}
+
+#proImg {
+  margin: 0 auto;
+  padding-top: 120px;
+  padding-left: 70px;
+  text-align: left;
+}
+
+.pcard {
+  display: inline-block;
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.pcard img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  transition: transform 0.3s;
+}
+
+.pcard:hover img {
+  transform: scale(1.1);
+}
+
+.pTop{
+	color: white;
+	font-size: 10mm;
+	font-weight: bold;
+	margin-top: -430px;
+	margin-left: 900px;
+	padding-bottom: 20px;
+}
+
+.pSpec{
+	color: white;
+	font-size: 7mm;
+	font-weight: lighter;
+	margin-left: 620px;
+	margin-top: 30px;
+}
+
+.Buy{
+	background-color: white;
+	color: black;
+	margin-left: 750px;
+	margin-top: 40px;
+}
+
+.AddCart{
+	background-color: white;
+	color: black;
+}
+
+.Buy:hover{
+	background-color: black;
+	color: white;
+} 
+
+.AddCart:hover{
+	background-color: black;
+	color: white;
+}
